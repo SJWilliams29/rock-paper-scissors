@@ -11,3 +11,8 @@ function getComputerChoice() {
     }
     return choice;
 }
+
+function getHumanChoice() {
+    let choice = prompt("Enter your action.");
+    return choice;
+}
